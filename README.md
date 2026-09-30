@@ -30,3 +30,19 @@ breast-cancer-rnaseq/
 ├── scripts/            # R script (01_breast_cancer_deseq2.R)
 ├── results/            # Output CSV (DEGs) and PNG visualizations
 └── README.md           # Project documentation
+## Visualizations
+
+### 1. Volcano Plot
+*Demonstrating statistical significance ($-\log_{10} P$) vs. magnitude of change ($\log_2\text{FC}$).*
+
+![Volcano Plot](results/volcano_breast_cancer.png)
+
+### 2. Hierarchical Clustering Heatmap
+*Top 20 DEGs showing clear sample separation based on ER status.*
+
+![Heatmap](results/heatmap_breast_cancer.png)
+
+### 3. Functional Enrichment Analysis (GO Dotplot)
+*Over-represented biological processes showing direct impact on estrogen response pathways.*
+
+![GO Enrichment Dotplot](results/go_enrichment_dotplot.png)
